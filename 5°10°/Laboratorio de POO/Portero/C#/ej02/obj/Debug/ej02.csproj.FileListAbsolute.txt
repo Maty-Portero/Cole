@@ -1,0 +1,7 @@
+C:\xampp\htdocs\Portero\5°10°\Laboratorio de POO\Portero\ej02\bin\Debug\ej02.exe.config
+C:\xampp\htdocs\Portero\5°10°\Laboratorio de POO\Portero\ej02\bin\Debug\ej02.exe
+C:\xampp\htdocs\Portero\5°10°\Laboratorio de POO\Portero\ej02\bin\Debug\ej02.pdb
+C:\xampp\htdocs\Portero\5°10°\Laboratorio de POO\Portero\ej02\obj\Debug\ej02.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Portero\5°10°\Laboratorio de POO\Portero\ej02\obj\Debug\ej02.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Portero\5°10°\Laboratorio de POO\Portero\ej02\obj\Debug\ej02.exe
+C:\xampp\htdocs\Portero\5°10°\Laboratorio de POO\Portero\ej02\obj\Debug\ej02.pdb

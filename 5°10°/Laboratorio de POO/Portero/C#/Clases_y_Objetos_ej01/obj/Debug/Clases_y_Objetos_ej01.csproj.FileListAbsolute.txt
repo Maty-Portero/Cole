@@ -1,0 +1,7 @@
+C:\xampp\htdocs\Portero\Colegio\5°10°\Laboratorio de POO\Portero\Clases_y_Objetos_ej01\bin\Debug\Clases_y_Objetos_ej01.exe.config
+C:\xampp\htdocs\Portero\Colegio\5°10°\Laboratorio de POO\Portero\Clases_y_Objetos_ej01\bin\Debug\Clases_y_Objetos_ej01.exe
+C:\xampp\htdocs\Portero\Colegio\5°10°\Laboratorio de POO\Portero\Clases_y_Objetos_ej01\bin\Debug\Clases_y_Objetos_ej01.pdb
+C:\xampp\htdocs\Portero\Colegio\5°10°\Laboratorio de POO\Portero\Clases_y_Objetos_ej01\obj\Debug\Clases_y_Objetos_ej01.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Portero\Colegio\5°10°\Laboratorio de POO\Portero\Clases_y_Objetos_ej01\obj\Debug\Clases_y_Objetos_ej01.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Portero\Colegio\5°10°\Laboratorio de POO\Portero\Clases_y_Objetos_ej01\obj\Debug\Clases_y_Objetos_ej01.exe
+C:\xampp\htdocs\Portero\Colegio\5°10°\Laboratorio de POO\Portero\Clases_y_Objetos_ej01\obj\Debug\Clases_y_Objetos_ej01.pdb
