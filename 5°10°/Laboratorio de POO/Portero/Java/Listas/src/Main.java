@@ -25,7 +25,6 @@ public class Main {
         for (int i = 1; i < n; i++){
             if(p2.edad() < personas.get(i).edad()){
                 p2 = personas.get(0);
-
             }
             else {
                 p2 = personas.get(i);
