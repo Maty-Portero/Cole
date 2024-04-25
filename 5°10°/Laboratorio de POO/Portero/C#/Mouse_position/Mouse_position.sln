@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mouse_position", "Mouse_position.csproj", "{F25A13E5-9ADE-4DAD-A50E-AC739198409E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F25A13E5-9ADE-4DAD-A50E-AC739198409E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25A13E5-9ADE-4DAD-A50E-AC739198409E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25A13E5-9ADE-4DAD-A50E-AC739198409E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25A13E5-9ADE-4DAD-A50E-AC739198409E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DACD480-D045-4EBA-AA71-6E850FE153D2}
+	EndGlobalSection
+EndGlobal
