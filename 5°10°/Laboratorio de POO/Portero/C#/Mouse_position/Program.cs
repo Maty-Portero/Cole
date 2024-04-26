@@ -1,66 +1,87 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Data.Common;
-using System.Security.Cryptography;
+//using System.Collections.Generic;
+//using System.IO;
+//using System.Linq;
+//using System.Security.Cryptography;
+//using System.Text;
+//using System.Threading;
+//using System.Threading.Tasks;
+
 
 namespace Mouse_position
 {
-    public class Asterisco
+    public class Copo
     {
-        public int fila = 0;
         public int col = 0;
+        public int fila = 0;
 
-        public Asterisco(int col, int fila)
+        public Copo(int col, int fila)
         {
             this.col = col;
             this.fila = fila;
         }
     }
 
+
     internal class Program
     {
         static TimeSpan transcurso;
-        static DateTime h1 = DateTime.Now; 
+        static DateTime h1 = DateTime.Now;
         static DateTime h2 = DateTime.Now;
         static int fila = 0;
         static int columna = 0;
-        static List<Asterisco> asteriscos = new List<Asterisco>();
-        
+        static List<Copo> copos = new List<Copo>();
+
+        static public bool bajar(Copo c)
+        {
+            bool estado = false;
+            if (c.fila < 30)
+                estado = true;
+            foreach (Copo co in copos)
+            {   
+                if(c.col == co.col && c.fila+1 == co.fila)
+                {
+                    estado = false;
+                }
+            }
+
+            return estado;
+        }
 
         static void Main(string[] args)
         {
-            Asterisco a1 = new Asterisco(10, 1);
-            Asterisco a2 = new Asterisco(20, 1);
-            Asterisco a3 = new Asterisco(30, 1);
-
+            Copo a1;
             Random r = new Random();
             columna = r.Next(1, 50);
             Console.CursorVisible = false;
 
-            int cantAsteriscos = 10;
-            for (int i= 0; i < cantAsteriscos; i++)
-            {
-                a1 = new Asterisco(r.Next(1, 40), 1);
-                asteriscos.Add(a1);
-            }
+            a1 = new Copo(r.Next(1, 40), 1);
+            copos.Add(a1);
 
             while (true)
             {
                 h2 = DateTime.Now;
                 transcurso = h2 - h1;
 
-                if (transcurso.Milliseconds > 500)
+
+                if (transcurso.Milliseconds > 100)
                 {
-                    foreach (Asterisco asterisco in asteriscos)
+                    a1 = new Copo(r.Next(1, 40), 1);
+                    copos.Add(a1);
+
+                    foreach (Copo copo in copos)
                     {
-                        Console.SetCursorPosition(asterisco.col, asterisco.fila);
-                        Console.WriteLine(" ");
-                        asterisco.fila++;
-                        Console.SetCursorPosition(asterisco.col, asterisco.fila);
-                        Console.WriteLine("*");
-                        h1 = h2;
+                        if (bajar(copo)==true)
+                        {
+                            Console.SetCursorPosition(copo.col, copo.fila);
+                            Console.Write(" ");
+                            copo.fila++;
+                            Console.SetCursorPosition(copo.col, copo.fila);
+                            Console.Write("*");
+                        }
                     }
+                    h1 = h2;
                 }
             }
         }
