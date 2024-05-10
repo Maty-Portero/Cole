@@ -23,7 +23,6 @@ namespace Mouse_position
         }
     }
 
-
     internal class Program
     {
         static TimeSpan transcurso;
@@ -32,6 +31,18 @@ namespace Mouse_position
         static int fila = 0;
         static int columna = 0;
         static List<Copo> copos = new List<Copo>();
+
+        static bool eliminar_fila()
+        {
+            foreach (Copo co in copos)
+            {
+                if (co.fila == 30)
+                {
+
+                }
+            }
+            return false;
+        }
 
         static public bool bajar(Copo c)
         {
@@ -59,20 +70,25 @@ namespace Mouse_position
             a1 = new Copo(r.Next(1, 40), 1);
             copos.Add(a1);
 
+            if (eliminar_fila)
+            {
+                copos.RemoveAll(c => c.fila == 30);
+            }
+
             while (true)
             {
                 h2 = DateTime.Now;
                 transcurso = h2 - h1;
 
 
-                if (transcurso.Milliseconds > 100)
+                if (transcurso.Milliseconds > 0)
                 {
                     a1 = new Copo(r.Next(1, 40), 1);
                     copos.Add(a1);
 
                     foreach (Copo copo in copos)
                     {
-                        if (bajar(copo)==true)
+                        if (bajar(copo) == true)
                         {
                             Console.SetCursorPosition(copo.col, copo.fila);
                             Console.Write(" ");
@@ -80,8 +96,8 @@ namespace Mouse_position
                             Console.SetCursorPosition(copo.col, copo.fila);
                             Console.Write("*");
                         }
+                        h1 = h2;
                     }
-                    h1 = h2;
                 }
             }
         }

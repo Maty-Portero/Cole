@@ -1,0 +1,7 @@
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\C#\Menu\obj\Debug\Menu.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\C#\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\C#\Menu\bin\Debug\Menu.exe.config
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\C#\Menu\bin\Debug\Menu.exe
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\C#\Menu\bin\Debug\Menu.pdb
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\C#\Menu\obj\Debug\Menu.exe
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\C#\Menu\obj\Debug\Menu.pdb
