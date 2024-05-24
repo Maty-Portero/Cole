@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\Portero\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Herencia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{951AAE23-B04B-45A7-A4CE-345B9A58ED63}|Herencia.csproj|c:\\xampp\\htdocs\\portero\\cole\\5\u00B010\u00B0\\laboratorio de poo\\portero\\c#\\herencia\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{951AAE23-B04B-45A7-A4CE-345B9A58ED63}|Herencia.csproj|solutionrelative:animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{951AAE23-B04B-45A7-A4CE-345B9A58ED63}|Herencia.csproj|c:\\xampp\\htdocs\\portero\\cole\\5\u00B010\u00B0\\laboratorio de poo\\portero\\c#\\herencia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{951AAE23-B04B-45A7-A4CE-345B9A58ED63}|Herencia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{951AAE23-B04B-45A7-A4CE-345B9A58ED63}|Herencia.csproj|c:\\xampp\\htdocs\\portero\\cole\\5\u00B010\u00B0\\laboratorio de poo\\portero\\c#\\herencia\\canino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{951AAE23-B04B-45A7-A4CE-345B9A58ED63}|Herencia.csproj|solutionrelative:canino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{951AAE23-B04B-45A7-A4CE-345B9A58ED63}|Herencia.csproj|c:\\xampp\\htdocs\\portero\\cole\\5\u00B010\u00B0\\laboratorio de poo\\portero\\c#\\herencia\\felino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{951AAE23-B04B-45A7-A4CE-345B9A58ED63}|Herencia.csproj|solutionrelative:felino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{951AAE23-B04B-45A7-A4CE-345B9A58ED63}|Herencia.csproj|c:\\xampp\\htdocs\\portero\\cole\\5\u00B010\u00B0\\laboratorio de poo\\portero\\c#\\herencia\\aves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{951AAE23-B04B-45A7-A4CE-345B9A58ED63}|Herencia.csproj|solutionrelative:aves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Portero\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Herencia\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Portero\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Herencia\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:31:36.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Portero\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Herencia\\Animal.cs",
+              "RelativeDocumentMoniker": "Animal.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Portero\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Herencia\\Animal.cs",
+              "RelativeToolTip": "Animal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:43:28.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Canino.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Portero\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Herencia\\Canino.cs",
+              "RelativeDocumentMoniker": "Canino.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Portero\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Herencia\\Canino.cs",
+              "RelativeToolTip": "Canino.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:44:01.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Felino.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Portero\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Herencia\\Felino.cs",
+              "RelativeDocumentMoniker": "Felino.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Portero\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Herencia\\Felino.cs",
+              "RelativeToolTip": "Felino.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:44:20.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Aves.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Portero\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Herencia\\Aves.cs",
+              "RelativeDocumentMoniker": "Aves.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Portero\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Herencia\\Aves.cs",
+              "RelativeToolTip": "Aves.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:44:28.608Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
