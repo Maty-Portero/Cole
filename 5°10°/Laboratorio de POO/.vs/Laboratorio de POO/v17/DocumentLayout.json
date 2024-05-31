@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\mi-pc\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\mi-pc\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Menu\\MenuPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Portero\\C#\\Menu\\MenuPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\mi-pc\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Menu\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Portero\\C#\\Menu\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\mi-pc\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Menu\\Menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Portero\\C#\\Menu\\Menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuPrincipal.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\mi-pc\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Menu\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "Portero\\C#\\Menu\\MenuPrincipal.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\mi-pc\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Menu\\MenuPrincipal.cs",
+              "RelativeToolTip": "Portero\\C#\\Menu\\MenuPrincipal.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T15:06:13.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\mi-pc\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Menu\\Menu.cs",
+              "RelativeDocumentMoniker": "Portero\\C#\\Menu\\Menu.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\mi-pc\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Menu\\Menu.cs",
+              "RelativeToolTip": "Portero\\C#\\Menu\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T15:06:01.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\mi-pc\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Menu\\Program.cs",
+              "RelativeDocumentMoniker": "Portero\\C#\\Menu\\Program.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\mi-pc\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Menu\\Program.cs",
+              "RelativeToolTip": "Portero\\C#\\Menu\\Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T01:10:25.719Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

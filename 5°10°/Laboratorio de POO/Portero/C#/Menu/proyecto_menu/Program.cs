@@ -17,9 +17,9 @@ namespace menu
         {
             var menus = new Dictionary<string, string[]>
             {
-                { "Archivo", new[] { "Nuevo Cliente", "Modificar Cliente", "Listar Clientes", "Salir" } },
-                { "Editar", new[] { "Nuevo Producto", "Modificar Producto", "Eliminar Producto", "Listar Producto", "Salir" } },
-                { "Empresa", new[] { "Nueva Empresa", "Modificar Empresa", "Eliminar Empresa", "Listar Empresa", "Salir" } }
+                { " Archivo ", new[] { "Nuevo Cliente", "Modificar Cliente", "Listar Clientes", "Salir" } },
+                { " Editar " , new[] { "Nuevo Producto", "Modificar Producto", "Eliminar Producto", "Listar Producto", "Salir" } },
+                { " Empresa ", new[] { "Nueva Empresa", "Modificar Empresa", "Eliminar Empresa", "Listar Empresa", "Salir" } }
             };
 
             var menuPrincipal = new MenuPrincipal(menus);
