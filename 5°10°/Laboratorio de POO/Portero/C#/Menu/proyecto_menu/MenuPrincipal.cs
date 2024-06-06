@@ -9,7 +9,7 @@ namespace menu
 {
     public class MenuPrincipal
     {
-        List<Menu> menu = new List<Menu>();
+        public List<Menu> menu = new List<Menu>();
         Dictionary<string, Action> acciones = new Dictionary<string, Action>();
 
         public MenuPrincipal(Dictionary<string, string[]> menus)
@@ -37,27 +37,47 @@ namespace menu
         public void Dibujar(int columna, int fila, int subMenu, int seleccionarItem)
         {
             Console.Clear();
-            Console.SetCursorPosition(columna, fila++);
-            Console.WriteLine(menu[subMenu - 1].NombreMenu);
-            int indice = 0;
-            foreach (string item in menu[subMenu - 1].Items)
+
+            // Dibuja todos los títulos de los menús
+            int columnaInicio = 0;
+            foreach (var m in menu)
             {
-                Console.SetCursorPosition(columna, fila++);
-                if (indice == seleccionarItem)
+                Console.SetCursorPosition(columnaInicio, fila);
+                Console.BackgroundColor = m.PosMenu == subMenu ? ConsoleColor.DarkGray : ConsoleColor.Black;
+                Console.ForegroundColor = m.PosMenu == subMenu ? ConsoleColor.White : ConsoleColor.Gray;
+                Console.Write($"{m.NombreMenu}");
+                columnaInicio += m.NombreMenu.Length;
+            }
+            Console.ResetColor();
+            Console.WriteLine(); // Salto de línea después de dibujar los títulos
+
+            // Dibuja solo los elementos del menú seleccionado debajo del título correspondiente
+            int filaInicio = fila + 1;
+            int filaActual = filaInicio;
+            foreach (var m in menu)
+            {
+                if (m.PosMenu == subMenu)
                 {
-                    Console.BackgroundColor = ConsoleColor.Blue;
-                    Console.ForegroundColor = ConsoleColor.White;
+                    foreach (string item in m.Items)
+                    {
+                        Console.SetCursorPosition(columna, filaActual++);
+                        if (m.Items[seleccionarItem] == item)
+                        {
+                            Console.BackgroundColor = ConsoleColor.Blue;
+                            Console.ForegroundColor = ConsoleColor.White;
+                        }
+                        else
+                        {
+                            Console.ResetColor();
+                        }
+                        Console.WriteLine(item);
+                    }
+                    break; // Una vez que se dibujan los elementos del menú seleccionado, se sale del bucle
                 }
-                else
-                {
-                    Console.BackgroundColor = ConsoleColor.White;
-                    Console.ForegroundColor = ConsoleColor.Black;
-                }
-                Console.WriteLine(item);
-                indice++;
             }
             Console.ResetColor();
         }
+
 
         public int ContadorMenu()
         {
