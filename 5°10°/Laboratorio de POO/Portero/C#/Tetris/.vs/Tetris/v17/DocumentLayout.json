@@ -1,10 +1,18 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\Portero\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Tetris\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{1DFC3D0C-F4E3-44EF-AA2F-7D0F3B329217}|Tetris.csproj|c:\\xampp\\htdocs\\portero\\cole\\5\u00B010\u00B0\\laboratorio de poo\\portero\\c#\\tetris\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DFC3D0C-F4E3-44EF-AA2F-7D0F3B329217}|Tetris.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\mi-pc\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Tetris\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7675D99-135D-42C5-866A-8590FA9C0D12}|Tetris.csproj|c:\\xampp\\htdocs\\mi-pc\\mati\\cole\\5\u00B010\u00B0\\laboratorio de poo\\portero\\c#\\tetris\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7675D99-135D-42C5-866A-8590FA9C0D12}|Tetris.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 769e0afafd6ad7b337a340613b039d5152431ab1
     }
   ],
   "DocumentGroupContainers": [
@@ -14,6 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 6,
           "Children": [
             {
@@ -51,6 +60,21 @@
               "ViewState": "AQIAAAYAAAAAAAAAAADwvwwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T19:36:30.714Z",
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\mi-pc\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Tetris\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\mi-pc\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\Tetris\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAcwGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T15:19:59.368Z",
+>>>>>>> 769e0afafd6ad7b337a340613b039d5152431ab1
               "EditorCaption": ""
             }
           ]
