@@ -1,0 +1,7 @@
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\Prueba\bin\Debug\Prueba.exe.config
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\Prueba\bin\Debug\Prueba.exe
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\Prueba\bin\Debug\Prueba.pdb
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\Prueba\obj\Debug\Prueba.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\Prueba\obj\Debug\Prueba.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\Prueba\obj\Debug\Prueba.exe
+C:\xampp\htdocs\Portero\Cole\5°10°\Laboratorio de POO\Portero\Prueba\obj\Debug\Prueba.pdb
