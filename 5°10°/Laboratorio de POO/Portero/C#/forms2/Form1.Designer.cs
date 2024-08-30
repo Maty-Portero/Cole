@@ -43,6 +43,11 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
+            "hola",
+            "como estas",
+            "bb",
+            "mi amooorr"});
             this.listBox1.Location = new System.Drawing.Point(22, 21);
             this.listBox1.Name = "listBox1";
             this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
@@ -84,12 +89,14 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "Agregar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.Location = new System.Drawing.Point(480, 21);
             this.listBox2.Name = "listBox2";
+            this.listBox2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.listBox2.Size = new System.Drawing.Size(271, 342);
             this.listBox2.TabIndex = 3;
             this.listBox2.DoubleClick += new System.EventHandler(this.listBox2_DoubleClick);
@@ -112,6 +119,7 @@
             this.button4.TabIndex = 7;
             this.button4.Text = "<<";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -148,6 +156,8 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -167,6 +177,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.MenuStrip menuStrip1;
     }
 }
 

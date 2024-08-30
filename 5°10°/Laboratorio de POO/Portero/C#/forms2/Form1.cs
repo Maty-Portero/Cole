@@ -21,6 +21,7 @@ namespace forms2
         {
             listBox1.Items.Add(textBox1.Text);
             textBox1.Clear();
+            textBox1.Focus();
         }
 
         private void listBox1_DoubleClick(object sender, EventArgs e)
@@ -72,13 +73,36 @@ namespace forms2
         }
 
         private void button6_Click(object sender, EventArgs e)
-        {/*
-            if (listBox1.SelectedItems.Count <= 2)
+        {
+            object[] selectedItems = new object[listBox1.SelectedItems.Count];
+            listBox1.SelectedItems.CopyTo(selectedItems, 0);
+            
+            listBox2.Items.AddRange(selectedItems);
+            for (int i = 0; i < selectedItems.Length; i++)
             {
-                listBox2.Items.Add(listBox1.SelectedItems);
-                listBox1.Items.Remove(listBox1.SelectedItems);
+                listBox1.Items.Remove(selectedItems[i]);
             }
-         */
+                
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            object[] selectedItems = new object[listBox2.SelectedItems.Count];
+            listBox2.SelectedItems.CopyTo(selectedItems, 0);
+
+            listBox1.Items.AddRange(selectedItems);
+            for (int i = 0; i < selectedItems.Length; i++)
+            {
+                listBox2.Items.Remove(selectedItems[i]);
+            }
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            listBox2.Items.Add(textBox2.Text);
+            textBox2.Clear();
+            textBox2.Focus();
         }
     }
 }
