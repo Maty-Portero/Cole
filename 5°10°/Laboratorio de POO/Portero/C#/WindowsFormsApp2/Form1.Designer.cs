@@ -28,7 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.trackBar2 = new System.Windows.Forms.TrackBar();
+            this.trackBar3 = new System.Windows.Forms.TrackBar();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.aToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.canciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -59,41 +70,126 @@
             this.tODALAVIDAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rADIOCLUBHITSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mÁSGRANDEESTEAÑOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.trackBar2 = new System.Windows.Forms.TrackBar();
-            this.trackBar3 = new System.Windows.Forms.TrackBar();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.menuStrip1.SuspendLayout();
+            this.muestraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cambiarARojoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // listBox1
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aToolStripMenuItem,
-            this.antezana247ToolStripMenuItem,
-            this.hechoAManoToolStripMenuItem,
-            this.mORDIENDOELBOZALToolStripMenuItem,
-            this.trapDeVerdadToolStripMenuItem,
-            this.ysysmoToolStripMenuItem,
-            this.tUDUOFAVORITOToolStripMenuItem,
-            this.elAfterDelAfterToolStripMenuItem,
-            this.rADIOCLUBHITSToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1904, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(51, 105);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.listBox1.Size = new System.Drawing.Size(219, 342);
+            this.listBox1.TabIndex = 1;
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.Location = new System.Drawing.Point(465, 105);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.listBox2.Size = new System.Drawing.Size(219, 342);
+            this.listBox2.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(332, 105);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "<<";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(332, 156);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "<";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(332, 424);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 6;
+            this.button3.Text = ">>";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(332, 375);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 5;
+            this.button4.Text = ">";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // trackBar1
+            // 
+            this.trackBar1.Location = new System.Drawing.Point(792, 197);
+            this.trackBar1.Maximum = 255;
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(200, 45);
+            this.trackBar1.TabIndex = 8;
+            this.trackBar1.ValueChanged += new System.EventHandler(this.trackBar1_ValueChanged);
+            // 
+            // trackBar2
+            // 
+            this.trackBar2.Location = new System.Drawing.Point(792, 248);
+            this.trackBar2.Maximum = 255;
+            this.trackBar2.Name = "trackBar2";
+            this.trackBar2.Size = new System.Drawing.Size(200, 45);
+            this.trackBar2.TabIndex = 9;
+            this.trackBar2.ValueChanged += new System.EventHandler(this.trackBar2_ValueChanged);
+            // 
+            // trackBar3
+            // 
+            this.trackBar3.Location = new System.Drawing.Point(792, 299);
+            this.trackBar3.Maximum = 255;
+            this.trackBar3.Name = "trackBar3";
+            this.trackBar3.Size = new System.Drawing.Size(200, 45);
+            this.trackBar3.TabIndex = 10;
+            this.trackBar3.ValueChanged += new System.EventHandler(this.trackBar3_ValueChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(771, 197);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(15, 13);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "R";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(771, 248);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(15, 13);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "G";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(771, 299);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(14, 13);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "B";
             // 
             // aToolStripMenuItem
             // 
@@ -146,6 +242,7 @@
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // antezana247ToolStripMenuItem
             // 
@@ -315,117 +412,39 @@
             this.mÁSGRANDEESTEAÑOToolStripMenuItem.Text = "MÁS GRANDE ESTE AÑO";
             this.mÁSGRANDEESTEAÑOToolStripMenuItem.Click += new System.EventHandler(this.mÁSGRANDEESTEAÑOToolStripMenuItem_Click);
             // 
-            // listBox1
+            // muestraToolStripMenuItem
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(51, 105);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox1.Size = new System.Drawing.Size(219, 342);
-            this.listBox1.TabIndex = 1;
+            this.muestraToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cambiarARojoToolStripMenuItem});
+            this.muestraToolStripMenuItem.Name = "muestraToolStripMenuItem";
+            this.muestraToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
+            this.muestraToolStripMenuItem.Text = "muestra";
             // 
-            // listBox2
+            // cambiarARojoToolStripMenuItem
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(465, 105);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox2.Size = new System.Drawing.Size(219, 342);
-            this.listBox2.TabIndex = 2;
+            this.cambiarARojoToolStripMenuItem.Name = "cambiarARojoToolStripMenuItem";
+            this.cambiarARojoToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.cambiarARojoToolStripMenuItem.Text = "cambiar a rojo";
+            this.cambiarARojoToolStripMenuItem.Click += new System.EventHandler(this.cambiarARojoToolStripMenuItem_Click);
             // 
-            // button1
+            // menuStrip1
             // 
-            this.button1.Location = new System.Drawing.Point(332, 105);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "<<";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(332, 156);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "<";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(332, 424);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 6;
-            this.button3.Text = ">>";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(332, 375);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 5;
-            this.button4.Text = ">";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // trackBar1
-            // 
-            this.trackBar1.Location = new System.Drawing.Point(792, 197);
-            this.trackBar1.Maximum = 255;
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(200, 45);
-            this.trackBar1.TabIndex = 8;
-            this.trackBar1.ValueChanged += new System.EventHandler(this.trackBar1_ValueChanged);
-            // 
-            // trackBar2
-            // 
-            this.trackBar2.Location = new System.Drawing.Point(792, 248);
-            this.trackBar2.Maximum = 255;
-            this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Size = new System.Drawing.Size(200, 45);
-            this.trackBar2.TabIndex = 9;
-            this.trackBar2.ValueChanged += new System.EventHandler(this.trackBar2_ValueChanged);
-            // 
-            // trackBar3
-            // 
-            this.trackBar3.Location = new System.Drawing.Point(792, 299);
-            this.trackBar3.Maximum = 255;
-            this.trackBar3.Name = "trackBar3";
-            this.trackBar3.Size = new System.Drawing.Size(200, 45);
-            this.trackBar3.TabIndex = 10;
-            this.trackBar3.ValueChanged += new System.EventHandler(this.trackBar3_ValueChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(771, 197);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(15, 13);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "R";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(771, 248);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(15, 13);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "G";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(771, 299);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(14, 13);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "B";
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aToolStripMenuItem,
+            this.antezana247ToolStripMenuItem,
+            this.hechoAManoToolStripMenuItem,
+            this.mORDIENDOELBOZALToolStripMenuItem,
+            this.trapDeVerdadToolStripMenuItem,
+            this.ysysmoToolStripMenuItem,
+            this.tUDUOFAVORITOToolStripMenuItem,
+            this.elAfterDelAfterToolStripMenuItem,
+            this.rADIOCLUBHITSToolStripMenuItem,
+            this.muestraToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1904, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
             // 
             // Form1
             // 
@@ -448,49 +467,17 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem aToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem antezana247ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hechoAManoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem trapDeVerdadToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ysysmoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nuevoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem canciónToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem abrirToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem canciónToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hidroToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem elAfterDelAfterToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem DESFILARMISPENASToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripMenuItem tRAPDEVERDADToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripMenuItem cUANDOFUEToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripTextBox1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripTextBox2;
-        private System.Windows.Forms.ToolStripMenuItem rELOJESREVENTADOSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mORDIENDOELBOZALToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tUDUOFAVORITOToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem qUIERENMÁSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tODALAVIDAToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rADIOCLUBHITSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mÁSGRANDEESTEAÑOToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem lAPRIMERAVEZToolStripMenuItem;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Button button1;
@@ -503,6 +490,39 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolStripMenuItem aToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nuevoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem canciónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem abrirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem canciónToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem antezana247ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hidroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hechoAManoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem DESFILARMISPENASToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mORDIENDOELBOZALToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lAPRIMERAVEZToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem trapDeVerdadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripTextBox1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripMenuItem tRAPDEVERDADToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripTextBox2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripMenuItem cUANDOFUEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ysysmoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rELOJESREVENTADOSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tUDUOFAVORITOToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem qUIERENMÁSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem elAfterDelAfterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tODALAVIDAToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rADIOCLUBHITSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mÁSGRANDEESTEAÑOToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem muestraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cambiarARojoToolStripMenuItem;
+        private System.Windows.Forms.MenuStrip menuStrip1;
     }
 }
 

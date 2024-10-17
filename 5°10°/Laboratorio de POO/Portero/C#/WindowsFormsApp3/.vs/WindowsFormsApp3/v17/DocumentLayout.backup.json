@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\xampp\\htdocs\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\WindowsFormsApp2\\",
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\WindowsFormsApp3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9D08A9D-6E7C-4516-823B-DC7E647DCEF5}|WindowsFormsApp2.csproj|C:\\xampp\\htdocs\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\WindowsFormsApp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D08A9D-6E7C-4516-823B-DC7E647DCEF5}|WindowsFormsApp2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94751CEE-6679-409A-A881-0CC7276B7135}|WindowsFormsApp3.csproj|c:\\xampp\\htdocs\\mati\\cole\\5\u00B010\u00B0\\laboratorio de poo\\portero\\c#\\windowsformsapp3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{94751CEE-6679-409A-A881-0CC7276B7135}|WindowsFormsApp3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9D08A9D-6E7C-4516-823B-DC7E647DCEF5}|WindowsFormsApp2.csproj|c:\\xampp\\htdocs\\mati\\cole\\5\u00B010\u00B0\\laboratorio de poo\\portero\\c#\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9D08A9D-6E7C-4516-823B-DC7E647DCEF5}|WindowsFormsApp2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{94751CEE-6679-409A-A881-0CC7276B7135}|WindowsFormsApp3.csproj|c:\\xampp\\htdocs\\mati\\cole\\5\u00B010\u00B0\\laboratorio de poo\\portero\\c#\\windowsformsapp3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94751CEE-6679-409A-A881-0CC7276B7135}|WindowsFormsApp3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,27 +50,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\WindowsFormsApp2\\Form1.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\WindowsFormsApp3\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\WindowsFormsApp2\\Form1.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\WindowsFormsApp3\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAjwKMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAIA3wDcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T19:02:11.419Z",
+              "WhenOpened": "2024-10-02T18:14:21.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\WindowsFormsApp2\\Form1.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\WindowsFormsApp3\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\WindowsFormsApp2\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\xampp\\htdocs\\Mati\\Cole\\5\u00B010\u00B0\\Laboratorio de POO\\Portero\\C#\\WindowsFormsApp3\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T18:15:40.294Z",
+              "WhenOpened": "2024-10-02T18:11:59.271Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

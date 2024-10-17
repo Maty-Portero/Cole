@@ -152,5 +152,15 @@ namespace WindowsFormsApp2
             color = Color.FromArgb(r, g, b);
             this.BackColor = color;
         }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void cambiarARojoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Red;
+        }
     }
 }
