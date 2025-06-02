@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:5.7
+    container_name: wordpress_db
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: tu_password_root
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: tu_password_wordpress
+    networks:
+      - wordpress_net
+
+  wordpress:
+    image: wordpress:latest
+    container_name: wordpress_app
+    depends_on:
+      - db
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: tu_password_wordpress
+      WORDPRESS_DB_NAME: wordpress
+    ports:
+      - 80:80
+    volumes:
+      - wordpress_data:/var/www/html
+    networks:
+      - wordpress_net
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: pma
+    depends_on:
+      - db
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: tu_password_root
+    ports:
+      - 8080:80
+    networks:
+      - wordpress_net
+
+volumes:
+  db_data:
+  wordpress_data:
+
+networks:
+  wordpress_net:
+    driver: bridge
